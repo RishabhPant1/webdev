@@ -1,0 +1,116 @@
+body{
+    background-color: #f0f2f5;;
+}
+#box{
+    position: relative;
+    top: 160px;
+    left: 120px;
+    width: 80vw;
+}
+#left{
+    left: 120px;
+}
+h1{
+    color: #1877f2;
+    top: 50;
+    font-size: 60px;
+}
+h3{
+    position: relative;
+    top: -40px;
+    font-family: sans-serif;
+}
+
+form{
+    width: 296px;
+    height: 280px;
+    position: absolute;
+    background-color: white;
+    top: -60px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    right: 130px;
+    text-align: center;
+    padding: 4px;
+}
+form *{
+    width: 284px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 4px 3px;
+}
+form input{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+#login{
+    background-color: #1877F2;  
+    border: 0px;
+    color: white;
+}
+#login:hover{
+    background-color: blue;
+}
+#signup{
+    background-color: rgb(6, 205, 6);
+    border: 0px;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+#signup:hover{
+    background-color: green;
+}
+p{
+    position: absolute;
+    font-size: 14px;
+    top: 230px;
+    right: 138px;
+}
+a{
+    text-decoration: none;
+    color: #1877F2;
+}
+a:hover{
+    text-decoration: underline;
+}
+b a{
+    color: black;
+}
+
+/* @media (max-width:400px) and (min-width:900px){
+
+} */
+
+@media screen and (max-width:1000px){
+
+    #box{
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+    }
+
+    #left{
+        text-align: center;
+    }
+    h1{
+        font-size: 46px;
+        top: -5px;
+    }
+    h3{
+        top: -25px;
+    }
+    form{
+        position: initial;
+        top: 164px;
+        margin: 0 auto;
+    }
+    p{
+        position: initial;
+        top: 455px;
+        right: 145px;
+    }
+}
